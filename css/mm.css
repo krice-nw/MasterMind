@@ -1,0 +1,171 @@
+/*
+mm.css
+*/
+
+#gameBoard {
+	position: relative;
+	float: left;
+	height: 594; /* 540px; was 486*/
+	width: 250px;
+	border: 2px;
+	border-style: solid;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+#palette {
+	position: relative;
+	float: left;
+	height: 265px;
+	width: 45px;
+	margin: 1;
+	padding: 1px;
+	border: 2px;
+	border-style: solid;
+	background-color: #ccc;
+}
+
+#controls {
+	position: relative;
+	float: left;
+}
+
+#empty {
+	position: relative;
+	float: left;
+	height: 44px;
+	width: 44px;
+	margin: 1px;
+	border: 2px;
+	border-style: solid;
+	padding: 2px;
+	list-style-type: none;
+
+	border-color: #ccc;
+}	
+
+.new_game_button {
+	background-image:url('../img/new_game.png'); 
+}
+
+.new_game_button:ACTIVE {
+	background-image:url('../img/new_game_down.png'); 
+}
+
+
+#solution {
+	background: #999;
+}	
+
+.submit_button {
+	background-image:url('../img/submit.png'); 
+}
+/*
+.submit_button:HOVER {
+	background-image:url('../img/submit_over.png'); 
+}
+*/
+.submit_button:ACTIVE {
+	background-image:url('../img/submit_down.png'); 
+}
+
+.newGame_button {
+	background: red;
+}
+
+/* add the status */
+ul.status_area {
+	position: relative;
+	float: left;
+	height: 44px;
+	width: 44px;
+	margin: 1px;
+	border: 2px;
+	border-color: #333;
+	border-style: solid;
+	padding: 2px;
+	list-style-type: none;
+}
+li.status {
+	float: left;
+	height: 14px;
+	width: 14px;
+	border: 2px;
+	padding: 1px;
+	margin: 1px;
+	border-style: solid;
+	border-radius: 12px;
+}
+/* end status */
+
+ul.row {
+	position: relative;
+	float: right;
+	height: 46px;
+	width: 185px;
+	margin: 1;
+	padding: 1px;
+	list-style-type: none;
+	border: 2px;
+	border-style: solid;
+}
+
+li.piece {
+	float: left;
+	height: 39px;
+	width: 38px;
+	border: 2px;
+	margin: 2px;
+	background-color: #ccc;	
+	border-style: solid;
+	border-radius: 25px;
+}
+
+.row.current {
+	border: 2px;
+	border-color: #f00;
+	border-style: solid;
+	background-color: #aaa;
+}
+
+ul.palette {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.palette li {
+	position: relative;
+	float: left;
+	margin: 2px;
+	height: 40px;
+	width: 40px;
+	border: 2px;
+	padding: 0px;
+	border-radius: 25px;
+}
+
+.black {
+	background: black;
+}
+
+.blue {
+	background: blue;
+}
+
+.white {
+	background-color: white;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
